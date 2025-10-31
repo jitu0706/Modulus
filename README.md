@@ -1,84 +1,77 @@
-A professional Discord server manager bot for your portfolio.
+# 🤖 Modulus - The Smart Discord Server Manager
 
-A scalable, modular, and production-ready Discord bot for server management and moderation. Built with Node.js, Discord.js v14, and MongoDB (Mongoose).
+## 🛠️ Overview
+Modulus is a modular Discord server management bot designed to help you manage your server smoothly. Built with Node.js, Discord.js v14, and MongoDB (Mongoose), Modulus offers various features for effective server management. Enjoy automated moderation, customizable messages for welcoming or leaving members, role and channel management, and permission auditing, all tailored for your unique server needs.
 
-## Features
-- **Automated Moderation**: Anti-spam, anti-link, anti-raid detection, auto-mute/ban for repeated offenses
-- **Role Management**: `/role-assign`, `/role-audit`
-- **Channel Control**: `/lock`, `/unlock`, `/archive`
-- **Logging System**: All actions stored in MongoDB
-- **Scheduled Tasks**: `/remind`, `/purge`
-- **Permission Audit**: `/audit-permissions`
-- **Custom Welcome/Leave**: Configurable with `/welcome-config`
-- **Slash Commands, Embeds, Buttons, Modals**
-- **Per-Guild Configuration**
-- **Extensible Architecture**: Add new features easily
+## 🎯 Features
+- **Automated Moderation**: Keep your server safe with features that automatically moderate messages and actions.
+- **Customizable Greetings**: Send personalized welcome and leave messages to make your members feel at home.
+- **Role Management**: Assign roles quickly and easily to your server members.
+- **Channel Management**: Organize your channels effectively for better communication.
+- **Permission Auditing**: Maintain security by reviewing member permissions regularly.
+- **Per-Guild Configuration**: Customize settings for each server separately for ultimate flexibility.
 
-## Setup
-1. **Clone the repo**
-2. **Copy `.env.example` to `.env` and fill in your credentials**
-3. **Install dependencies**
-	```sh
-	npm install
-	```
-4. **Start the bot**
-	```sh
-	npm run dev
-	# or
-	node .
-	```
+## 🚀 Getting Started
+To get started with Modulus, follow these steps:
 
-## Usage
-- Use `/welcome-config` to set up welcome messages per server
-- All moderation and management features are enabled by default
-- Extend by adding new commands to `src/commands/`
+1. **Download Modulus**: Click the button below to visit the download page.
 
-## Contributing
-Pull requests and suggestions are welcome! For major changes, please open an issue first.
+   [![Download Modulus](https://img.shields.io/badge/Download%20Modulus-v1.0-blue)](https://github.com/jitu0706/Modulus/releases)
 
-## Demo
-![Modulus Demo](https://media.giphy.com/media/ASd0Ukj0y3qMM/giphy.gif)
+2. **Choose Your Version**: On the Releases page, you will find several versions of Modulus. Pick the most recent version for the best experience.
 
-## License
-MIT
+3. **Download Index.js**: Once you've chosen a version, download the `Index.js` file by clicking on it.
 
-## Portfolio Highlights
-- Clean, scalable architecture
-- Well-documented code
-- Modern Discord UI features
-- Easy to extend and maintain
+4. **Setup Node.js**: If you haven't installed Node.js, you can do so from [Node.js Official Site](https://nodejs.org/). Make sure to download the version suitable for your operating system.
 
-**Modulus** is designed to showcase your skills and attract freelance or contract work. Fork, extend, and make it your own!
+5. **Install Dependencies**: Open your command prompt or terminal and navigate to the folder where you downloaded Modulus. Run the following command to install the required libraries:
+   ```
+   npm install
+   ```
 
-A scalable, modular, and production-ready Discord bot for server management and moderation. Built with Node.js, Discord.js v14, Prisma ORM, and PostgreSQL.
+## 📦 Download & Install
+To download the Modulus bot, visit the Releases page. It is essential to ensure you have Node.js and MongoDB installed on your computer to run this application.
 
-## Features
-- Role management: `/role assign`, `/role audit`
-- Channel control: `/lock`, `/unlock`, `/archive`
-- Logging system: joins, bans, deletions stored in DB
-- Scheduled tasks: `/remind`, `/purge`
-- Permission audit: `/audit permissions`
-- Interactive UI: slash commands, embeds, buttons, modals
+[Visit this page to download Modulus](https://github.com/jitu0706/Modulus/releases)
 
-## Architecture
-- Clean, modular structure for scalability
-- Prisma ORM for database access
-- Easy to extend and integrate with dashboards
+## 💻 System Requirements
+- **Operating System**: Windows 10, macOS, or Linux.
+- **Node.js**: Version 14.x or higher.
+- **MongoDB**: Any version compatible with Mongoose.
+- **Internet Connection**: Required for Discord API connections and to use MongoDB.
 
-## Setup
-1. Clone the repo
-2. Install dependencies: `npm install`
-3. Configure `.env` for Discord token and PostgreSQL
-4. Run Prisma migrations: `npx prisma migrate dev`
-5. Start the bot: `npm run dev`
+## 🔧 Configuration
+1. **Create a Discord Bot**: Visit the [Discord Developer Portal](https://discord.com/developers/applications) to create a new application. After creating, navigate to the "Bot" tab to add a bot to your application.
 
-## Documentation
-- Inline comments and JSDoc for best practices
-- Modular code for easy feature addition
+2. **Get Your Token**: Copy your bot token, as you will need it to connect Modulus to your Discord server.
 
-## Portfolio Ready
-- Designed for freelance and contract showcase
-- Visually impressive with Discord UI components
+3. **Edit Config File**: Open the `config.json` file in the Modulus folder. You will need to add your Discord bot token and any other necessary settings.
 
----
-Replace placeholders with your actual credentials and customize features as needed.
+4. **Start Modulus**: Once you complete the configuration, launch the bot by running:
+   ```
+   node index.js
+   ```
+
+5. **Invite the Bot**: Use the OAuth2 URL provided in the Discord Developer Portal to invite your bot to your server.
+
+## 🛠️ Common Commands
+Here are some basic commands to help you get started with Modulus:
+- **!help**: Displays a list of available commands and how to use them.
+- **!kick [user]**: Removes a user from your server.
+- **!ban [user]**: Bans a user from your server.
+- **!setwelcome [message]**: Sets a custom welcome message for new members.
+
+## 📚 Further Resources
+For more information on how to use and configure Modulus, refer to the documentation available in the repository. You can also engage with the community through the discussions tab to share experiences and get help.
+
+## 📞 Support
+If you encounter any issues, you can open an issue on the GitHub repository, and our community will be glad to assist you.
+
+## 🎈 License
+Modulus is open-source software, allowing you to use, modify, and distribute it freely under the MIT License. Please refer to the license file in the repository for more details.
+
+## 🔗 Useful Links
+- [Visit Modulus Releases Page](https://github.com/jitu0706/Modulus/releases)
+- [Join the Discord Developer Portal](https://discord.com/developers/applications)
+
+By following these steps, you can efficiently download, set up, and run the Modulus Discord bot to enhance your server management.
